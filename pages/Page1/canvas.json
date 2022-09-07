@@ -68,42 +68,41 @@
               "autoPlay": false
             },
             {
-              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "widgetName": "Video1",
-              "displayName": "Video",
-              "iconSVG": "/static/media/icon.39c2d6968b6bb91bbe019646a9243566.svg",
-              "searchTags": [
-                "youtube"
-              ],
-              "topRow": 34,
-              "bottomRow": 62,
+              "boxShadow": "none",
+              "widgetName": "Image1",
+              "displayName": "Image",
+              "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
+              "topRow": 19,
+              "bottomRow": 57,
               "parentRowSpace": 10,
-              "type": "VIDEO_WIDGET",
+              "type": "IMAGE_WIDGET",
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 21.859375,
               "dynamicTriggerPathList": [],
-              "leftColumn": 13,
+              "imageShape": "RECTANGLE",
+              "leftColumn": 11,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
-                },
-                {
-                  "key": "boxShadow"
                 }
               ],
-              "key": "4i1f960vsp",
+              "defaultImage": "https://image.baidu.com/search/down?tn=download&ipn=dwnl&word=download&ie=utf8&fr=result&url=https%3A%2F%2Fgimg2.baidu.com%2Fimage_search%2Fsrc%3Dhttp%253A%252F%252Finews.gtimg.com%252Fnewsapp_bt%252F0%252F13986115884%252F1000.jpg%26refer%3Dhttp%253A%252F%252Finews.gtimg.com%26app%3D2002%26size%3Df9999%2C10000%26q%3Da80%26n%3D0%26g%3D0n%26fmt%3Dauto%3Fsec%3D1665125741%26t%3Df3954f1a161c04b031a3c5a7460a9894&thumburl=https%3A%2F%2Fimg1.baidu.com%2Fit%2Fu%3D1580795341%2C417900252%26fm%3D253%26fmt%3Dauto%26app%3D138%26f%3DJPEG%3Fw%3D888%26h%3D500",
+              "key": "6bi195gcyk",
+              "image": "",
               "isDeprecated": false,
-              "rightColumn": 37,
-              "widgetId": "9vgakbzjy2",
+              "rightColumn": 48,
+              "objectFit": "contain",
+              "widgetId": "968b3h8jyo",
               "isVisible": true,
               "version": 1,
-              "url": "",
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
+              "maxZoomLevel": 1,
+              "enableDownload": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "autoPlay": false
+              "enableRotation": false
             }
           ]
         },
