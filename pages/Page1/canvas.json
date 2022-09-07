@@ -27,86 +27,68 @@
           "leftColumn": 0,
           "children": [
             {
+              "resetFormOnClick": false,
               "boxShadow": "none",
-              "widgetName": "Audio1",
-              "displayName": "Audio",
-              "iconSVG": "/static/media/icon.cb54df7a09016b0af5e520895be927b9.svg",
+              "widgetName": "Button1",
+              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "dynamicPropertyPathList": [],
+              "displayName": "Button",
+              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
               "searchTags": [
-                "mp3",
-                "sound",
-                "wave",
-                "player"
+                "click",
+                "submit"
               ],
-              "topRow": 12,
-              "bottomRow": 16,
+              "topRow": 13,
+              "bottomRow": 17,
               "parentRowSpace": 10,
-              "type": "AUDIO_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "parentColumnSpace": 21.859375,
-              "leftColumn": 5,
-              "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                },
-                {
-                  "key": "accentColor"
-                }
-              ],
-              "key": "q8tnbm3r1q",
-              "isDeprecated": false,
-              "rightColumn": 47,
-              "widgetId": "vnejmr7qj7",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "isVisible": true,
-              "version": 1,
-              "url": "https://assets.appsmith.com/widgets/birds_chirping.mp3",
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "autoPlay": false
-            },
-            {
-              "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
-              "widgetName": "Image1",
-              "displayName": "Image",
-              "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
-              "topRow": 27,
-              "bottomRow": 98,
-              "parentRowSpace": 10,
-              "type": "IMAGE_WIDGET",
+              "type": "BUTTON_WIDGET",
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 21.859375,
               "dynamicTriggerPathList": [],
-              "imageShape": "RECTANGLE",
-              "leftColumn": 4,
+              "leftColumn": 24,
               "dynamicBindingPathList": [
                 {
-                  "key": "borderRadius"
+                  "key": "buttonColor"
+                },
+                {
+                  "key": "text"
                 }
               ],
-              "defaultImage": "https://image.baidu.com/search/down?tn=download&ipn=dwnl&word=download&ie=utf8&fr=result&url=https%3A%2F%2Fgimg2.baidu.com%2Fimage_search%2Fsrc%3Dhttp%253A%252F%252Finews.gtimg.com%252Fnewsapp_bt%252F0%252F13986115884%252F1000.jpg%26refer%3Dhttp%253A%252F%252Finews.gtimg.com%26app%3D2002%26size%3Df9999%2C10000%26q%3Da80%26n%3D0%26g%3D0n%26fmt%3Dauto%3Fsec%3D1665125741%26t%3Df3954f1a161c04b031a3c5a7460a9894&thumburl=https%3A%2F%2Fimg1.baidu.com%2Fit%2Fu%3D1580795341%2C417900252%26fm%3D253%26fmt%3Dauto%26app%3D138%26f%3DJPEG%3Fw%3D888%26h%3D500",
-              "key": "6bi195gcyk",
-              "image": "",
+              "text": "{{JSON.parse(Api1.data)['data']['document']['title']}}",
+              "isDisabled": false,
+              "key": "xe7qtzzzkz",
               "isDeprecated": false,
-              "rightColumn": 51,
-              "objectFit": "contain",
-              "widgetId": "968b3h8jyo",
+              "rightColumn": 40,
+              "isDefaultClickDisabled": true,
+              "iconName": "add-column-right",
+              "widgetId": "4fcypgfmrk",
               "isVisible": true,
+              "recaptchaType": "V3",
               "version": 1,
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "maxZoomLevel": 2,
-              "enableDownload": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "enableRotation": true
+              "disabledWhenInvalid": false,
+              "borderRadius": "0.375rem",
+              "buttonVariant": "PRIMARY",
+              "iconAlign": "left",
+              "placement": "CENTER"
             }
           ]
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Page1_Api1",
+              "name": "Api1",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "validOnPageLoadActions": true,
         "id": "Page1",
         "deleted": false,
